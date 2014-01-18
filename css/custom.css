@@ -1,0 +1,25 @@
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: red;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: red;
+  background-color: transparent;
+}
+
+.jake_logo {
+	text-align: center;
+	padding-top: 7%;
+}
+
+.general_center {
+	text-align: center;
+	padding-top: 2%;
+}
+.social_media {
+	height: 180px;
+	width: 180px;
+}
