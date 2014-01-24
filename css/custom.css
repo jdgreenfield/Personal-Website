@@ -23,3 +23,26 @@
 	height: 180px;
 	width: 180px;
 }
+
+.coming_soon{
+	text-align: center;
+	padding-top: 20%;
+	font-size: 45px;
+}
+
+.email_me{
+	text-align: center;
+	padding-top: 3%;
+}
+.general_left{
+	text-align: left;
+	padding-top: 5%;
+	padding-left: 10%;
+}
+.make-lg-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
